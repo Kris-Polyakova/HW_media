@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container _hidden">
+      <form class="form">
+        <p class="form-text">Что-то пошло не так</p>
+        <p class="form-text">К
+          сожалению, нам не удалось определить ваше
+          местоположение, пожалуйста, дайте разрешение на
+          использование геолокации, либо введите координаты
+          вручную.
+        </p>
+        <label class="input-form-group">
+          <span class="form-label">Широта и долгота через запятую:</span>
+          <input type="text" name="coordinates" class="coordinates-input" placeholder="Пример: 51.50851, -0.12572 или [51.50851, -0.12572]"
+    pattern="-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?" required>
+        </label>
+        <div class="forn-btns">
+          <button type="button" class="form-btn cancel-btn">
+            <span class="button-text">Отмена</span>
+          </button>
+          <button type="submit" class="form-btn ok-btn">
+            <span class="button-text">OK</span>
+          </button>
+        </div>
+        
+      </form>
+    </div>
+    <div class="timeline">
+      <div class="messages">
+      </div>
+      <div class="inputs-container">
+        <input class="text-input" type="text" placeholder="Введите сообщение здесь">
+        <button class="btn voise-btn" type="button">🎤</button>
+        <button class="btn video-btn" type="button">🎥</button>
+      </div>
+    </div>
+  </div>   
+</body>
+</html>
