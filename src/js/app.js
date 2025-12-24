@@ -2,5 +2,5 @@
 
 import { Timeline } from "./classes/Timeline";
 
-const timeline = new Timeline('.timeline');
+const timeline = new Timeline(".timeline");
 timeline.init();
