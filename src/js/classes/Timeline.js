@@ -61,5 +61,7 @@ export class Timeline {
 
     message.append(date, text, coordinates);
     this.messaggeContainer.append(message);
+
+    this.messaggeContainer.scrollTop -= this.messaggeContainer.clientHeight;
   }
 }
